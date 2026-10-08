@@ -1,0 +1,333 @@
+/* ================================
+   RESET
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================================
+   BODY
+================================ */
+
+body {
+    background: #ffffff;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #101c19;
+}
+
+
+/* ================================
+   ÁREA DOS CARDS
+================================ */
+
+.acoes {
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 40px auto;
+
+    padding: 0 0 100px;
+}
+
+
+/* ================================
+   CARD
+================================ */
+
+.card {
+    width: 100%;
+
+    min-height: 820px;
+
+    border-radius: 55px;
+
+    padding: 110px 95px;
+
+    margin-bottom: 60px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+}
+
+
+/* ================================
+   CARD DOAÇÃO
+================================ */
+
+.card-doacao {
+    background: #eef7e9;
+}
+
+
+/* ================================
+   CARD VOLUNTÁRIO
+================================ */
+
+.card-voluntario {
+    background: #f7ebdf;
+}
+
+
+/* ================================
+   ÍCONE
+================================ */
+
+.icone {
+    font-size: 75px;
+
+    line-height: 1;
+
+    margin-bottom: 90px;
+}
+
+
+/* ================================
+   CONTEÚDO
+================================ */
+
+.conteudo {
+    width: 100%;
+}
+
+
+/* ================================
+   TÍTULOS
+================================ */
+
+.conteudo h2 {
+    font-size: 54px;
+
+    line-height: 1.15;
+
+    font-weight: 700;
+
+    letter-spacing: -1.5px;
+
+    margin-bottom: 38px;
+
+    color: #101c19;
+}
+
+
+/* ================================
+   TEXTOS
+================================ */
+
+.conteudo p {
+    max-width: 850px;
+
+    font-size: 29px;
+
+    line-height: 1.55;
+
+    font-weight: 400;
+
+    color: #606c67;
+
+    margin-bottom: 65px;
+}
+
+
+/* ================================
+   BOTÕES
+================================ */
+
+.botao {
+    border: none;
+
+    border-radius: 22px;
+
+    padding: 24px 46px;
+
+    font-size: 27px;
+
+    font-weight: 700;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+
+/* BOTÃO DOAÇÃO */
+
+.botao-doacao {
+    background: #165b45;
+
+    color: #ffffff;
+}
+
+
+/* BOTÃO VOLUNTÁRIO */
+
+.botao-voluntario {
+    background: #13211e;
+
+    color: #ffffff;
+}
+
+
+/* ================================
+   EFEITO DOS BOTÕES
+================================ */
+
+.botao:hover {
+    transform: translateY(-3px);
+
+    filter: brightness(0.95);
+}
+
+.botao:active {
+    transform: scale(0.98);
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 800px) {
+
+    .acoes {
+        margin: 30px auto;
+
+        padding: 0 25px 80px;
+    }
+
+    .card {
+        min-height: 650px;
+
+        padding: 75px 65px;
+
+        border-radius: 45px;
+
+        margin-bottom: 45px;
+    }
+
+    .icone {
+        font-size: 65px;
+
+        margin-bottom: 65px;
+    }
+
+    .conteudo h2 {
+        font-size: 44px;
+
+        margin-bottom: 30px;
+    }
+
+    .conteudo p {
+        font-size: 23px;
+
+        margin-bottom: 50px;
+    }
+
+    .botao {
+        font-size: 22px;
+
+        padding: 20px 35px;
+    }
+}
+
+
+/* ================================
+   CELULAR
+================================ */
+
+@media (max-width: 600px) {
+
+    .acoes {
+        padding: 0 22px 70px;
+
+        margin-top: 25px;
+    }
+
+    .card {
+        min-height: 600px;
+
+        padding: 60px 42px;
+
+        border-radius: 40px;
+
+        margin-bottom: 35px;
+    }
+
+    .icone {
+        font-size: 58px;
+
+        margin-bottom: 65px;
+    }
+
+    .conteudo h2 {
+        font-size: 36px;
+
+        line-height: 1.18;
+
+        letter-spacing: -1px;
+
+        margin-bottom: 28px;
+    }
+
+    .conteudo p {
+        font-size: 20px;
+
+        line-height: 1.6;
+
+        margin-bottom: 42px;
+    }
+
+    .botao {
+        font-size: 19px;
+
+        padding: 19px 27px;
+
+        border-radius: 18px;
+    }
+}
+
+
+/* ================================
+   CELULAR PEQUENO
+================================ */
+
+@media (max-width: 400px) {
+
+    .card {
+        padding: 50px 30px;
+
+        min-height: 560px;
+
+        border-radius: 35px;
+    }
+
+    .icone {
+        font-size: 52px;
+
+        margin-bottom: 55px;
+    }
+
+    .conteudo h2 {
+        font-size: 31px;
+    }
+
+    .conteudo p {
+        font-size: 18px;
+    }
+
+    .botao {
+        font-size: 17px;
+
+        padding: 17px 22px;
+    }
+}
